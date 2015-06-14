@@ -1,7 +1,7 @@
 freeboard-react-buildtool
 ==========================
 
-A CLI build tool that can update a widget's settings in a freeboard dashboard.json file.  Takes freeboard dashboard json as stdin, tries to read code.js and data.js, and then serializes them into the dashboard json.
+A CLI build tool that can update a widget's settings in a [freeboard](http://freeboard.io) dashboard.json file.  Takes freeboard dashboard json as stdin, tries to read code.js and data.js, and then serializes them into the dashboard json.
 
 **Usage**
 
