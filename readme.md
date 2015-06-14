@@ -7,10 +7,10 @@ The tool can update a widget's settings in a freeboard dashboard.json file.  Tak
 
 **Usage**
 
-Install tool as a dev dependency in your react widget project folder (see [freeboard-widget-react-template](http://foo))...
+Install tool as a dev dependency in your react widget project folder (see [freeboard-widget-react-template](https://github.com/jritsema/freeboard-react-widget))...
 
-`npm install --save-dev freeboard-react-buildtool`
+`$ npm install --save-dev freeboard-react-buildtool`
 
 Then you can create an npm script to auto-update your dashboard.json with something like...
 
-`cat dashboard.json | freeboard-react-buildtool > temp && cp temp dashboard.json && rm temp`
+`$ cat dashboard.json | freeboard-react-buildtool > temp && cp temp dashboard.json && rm temp`
