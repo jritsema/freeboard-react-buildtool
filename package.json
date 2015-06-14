@@ -12,5 +12,9 @@
   "repository" : {
     "type" : "git",
     "url" : "http://github.com/jritsema/freeboard-react-buildtool"
-  }  
+  },
+  "keywords": [
+     "freeboard",
+     "react"
+  ]
 }
