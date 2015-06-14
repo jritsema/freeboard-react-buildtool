@@ -1,12 +1,16 @@
 {
   "name": "freeboard-react-buildtool",
   "version": "1.0.0",
-  "description": "A CLI build tool that can update a widget's settings in a freeboard dashboard.json file",
+  "description": "A CLI build tool that makes developing freeboard widgets with react easier.",
   "bin": {
     "freeboard-react-buildtool": "index.js"
   },
   "main": "index.js",
   "scripts": {},
-  "author": "john_ritsema@yahoo.com",
-  "license": "MIT"
+  "author": "jritema",
+  "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/jritsema/freeboard-react-buildtool"
+  }  
 }
