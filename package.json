@@ -1,0 +1,12 @@
+{
+  "name": "freeboard-react-buildtool",
+  "version": "1.0.0",
+  "description": "A CLI build tool that can update a widget's settings in a freeboard dashboard.json file",
+  "bin": {
+    "freeboard-react-buildtool": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "author": "john_ritsema@yahoo.com",
+  "license": "MIT"
+}
