@@ -1,6 +1,6 @@
 {
   "name": "freeboard-react-buildtool",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A CLI build tool that makes developing freeboard widgets with react easier.",
   "bin": {
     "freeboard-react-buildtool": "index.js"
