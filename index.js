@@ -33,6 +33,9 @@ process.stdin.on('end', function() {
       //read code.js
       var code = fs.readFileSync('./code.js', { encoding: 'utf8' });
 
+      //replace 'module.exports = ' with 'return' so it can be loaded by freeboard
+      code = code.replace('module.exports = ', 'return ');      
+
       //read data.js
       var data = fs.readFileSync('./data.js', { encoding: 'utf8' });
 
