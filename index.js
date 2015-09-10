@@ -34,7 +34,11 @@ process.stdin.on('end', function() {
       var code = fs.readFileSync('./code.js', { encoding: 'utf8' });
 
       //replace 'module.exports = ' with 'return' so it can be loaded by freeboard
-      code = code.replace('module.exports = ', 'return ');      
+      code = code.replace('module.exports = ', 'return ');
+
+      //remove 'var React = require('react');' to support browserify/commonjs modules
+      code = code.replace('var React = require(''react'');', ' ');
+      code = code.replace('var React = require(''React'');', ' ');
 
       //read data.js
       var data = fs.readFileSync('./data.js', { encoding: 'utf8' });
