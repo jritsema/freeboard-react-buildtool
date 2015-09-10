@@ -37,8 +37,8 @@ process.stdin.on('end', function() {
       code = code.replace('module.exports = ', 'return ');
 
       //remove 'var React = require('react');' to support browserify/commonjs modules
-      code = code.replace('var React = require(''react'');', ' ');
-      code = code.replace('var React = require(''React'');', ' ');
+      code = code.replace('var React = require(\'react\');', ' ');
+      code = code.replace('var React = require(\'React\');', ' ');
 
       //read data.js
       var data = fs.readFileSync('./data.js', { encoding: 'utf8' });
